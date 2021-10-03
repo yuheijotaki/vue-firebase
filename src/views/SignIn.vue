@@ -17,8 +17,7 @@ const router = useRouter();
 const signIn = () => {
   const auth = getAuth();
   signInWithEmailAndPassword(auth, email.value, password.value)
-    .then((userCredential) => {
-      const user = userCredential.user;
+    .then(() => {
       router.push('/contents');
     })
     .catch((error) => {
