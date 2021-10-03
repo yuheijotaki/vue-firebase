@@ -2,40 +2,46 @@
 
 https://vue-firebase-a501d.web.app/
 
-## 環境プレビュー&ビルド
+## 画面一覧
 
-### ローカル起動
+## 構成
+
+## コマンド
+
+### 環境プレビュー&ビルド
+
+#### ローカル起動
 
 ```
 $ npm run serve
 ```
 
-### ビルド
+#### ビルド
 
 ```
 $ npm run build
 ```
 
-## Firebase
+### Firebase
 
-### ログイン
+#### ログイン
 
 ```
 $ firebase login
 ```
 
-### ローカルでデプロイ内容確認
+#### ローカルでデプロイ内容確認
 
 ```
 $ firebase serve
 ```
 
-### デプロイ
+#### デプロイ
 
 ```
 $ firebase deploy
 ```
 
-## GitHub Workflow
+### GitHub Workflow ステータス
 
 ![firebase-hosting workflow](https://github.com/yuheijotaki/vue-firebase/actions/workflows/firebase-hosting-push.yml/badge.svg)
