@@ -1,19 +1,41 @@
-# vue-firebase
+# Vue.js + Firebase Authentication のサンプルプロジェクト
 
-## Project setup
-```
-npm install
-```
+https://vue-firebase-a501d.web.app/
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 環境プレビュー&ビルド
 
-### Compiles and minifies for production
+### ローカル起動
+
 ```
-npm run build
+$ npm run serve
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### ビルド
+
+```
+$ npm run build
+```
+
+## Firebase
+
+### ログイン
+
+```
+$ firebase login
+```
+
+### ローカルでデプロイ内容確認
+
+```
+$ firebase serve
+```
+
+### デプロイ
+
+```
+$ firebase deploy
+```
+
+## GitHub Workflow
+
+![firebase-hosting workflow](https://github.com/yuheijotaki/vue-firebase/actions/workflows/firebase-hosting-push.yml/badge.svg)
