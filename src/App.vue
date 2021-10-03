@@ -65,6 +65,14 @@ const Logout = () => {
 body {
   margin: 0;
   padding: 0;
+  font-family: Helvetica Neue, Helvetica, Arial, '游ゴシック', YuGothic,
+    'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: 'palt';
 }
 body {
   font-size: 100%;
