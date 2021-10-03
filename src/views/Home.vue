@@ -1,18 +1,9 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <h1>トップページ</h1>
+  <p>Vue.js + Firebase Authentication のサンプルプロジェクト</p>
+  <p>
+    <a href="https://github.com/yuheijotaki/vue-firebase" target="_blank"
+      >GitHub</a
+    >
+  </p>
 </template>
-
-<script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
-export default {
-  name: 'Home',
-  components: {
-    HelloWorld
-  }
-}
-</script>
