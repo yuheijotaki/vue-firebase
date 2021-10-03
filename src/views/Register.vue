@@ -23,7 +23,7 @@ const router = useRouter();
 const register = () => {
   const auth = getAuth();
   createUserWithEmailAndPassword(auth, email.value, password.value)
-    .then((userCredential) => {
+    .then(() => {
       const currentUser = auth.currentUser;
       updateProfile(currentUser, {
         displayName: displayName.value,
